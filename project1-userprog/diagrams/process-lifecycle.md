@@ -1,5 +1,3 @@
-# Process Lifecycle
-
 ```mermaid
 flowchart TD
     A[Parent calls exec or fork] --> B[Allocate child_status]
@@ -16,8 +14,11 @@ flowchart TD
     K --> L[Child sets exited = true]
     L --> M[Child signals wait_sema]
 
-    N[Parent calls wait(pid)] --> O[Find matching child_status]
+    N["Parent calls wait(pid)"] --> O[Find matching child_status]
     O --> P[If child not exited, block on wait_sema]
     P --> Q[Read exit_status]
     Q --> R[Mark waited = true]
     R --> S[Release parent reference]
+    
+```
+For the full detailed control flow, see design.md

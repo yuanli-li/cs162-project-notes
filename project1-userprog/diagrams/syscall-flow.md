@@ -10,3 +10,6 @@ flowchart TD
     G --> H[Perform syscall-specific work]
     H --> I[Store return value in f->eax]
     I --> J[Return to user mode]
+
+```
+For the full detailed control flow, see design.md
