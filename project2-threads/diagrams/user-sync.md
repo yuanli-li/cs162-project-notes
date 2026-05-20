@@ -1,7 +1,3 @@
-
-
-# `project2-threads/diagrams/user-sync.md`
-
 # User Lock and Semaphore Flow
 
 ```mermaid

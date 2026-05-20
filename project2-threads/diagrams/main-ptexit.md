@@ -1,7 +1,3 @@
-
-
-# `project2-threads/diagrams/main-ptexit.md`
-
 # Main Thread Explicit Pthread Exit Scenario
 
 ```mermaid

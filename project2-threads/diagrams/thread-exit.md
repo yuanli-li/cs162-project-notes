@@ -1,7 +1,3 @@
-
-
-# `project2-threads/diagrams/thread-exit.md`
-
 # Ordinary Thread Exit Flow
 
 ```mermaid

@@ -1,7 +1,4 @@
 
-
-# `project2-threads/diagrams/thread-join.md`
-
 # Thread Join Flow
 
 ```mermaid

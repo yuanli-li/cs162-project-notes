@@ -1,5 +1,3 @@
-# `project2-threads/diagrams/thread-create.md`
-
 # Thread Creation Flow
 
 ```mermaid

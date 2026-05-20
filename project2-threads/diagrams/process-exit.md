@@ -1,7 +1,3 @@
-
-
-# `project2-threads/diagrams/process-exit.md`
-
 # Process Wide Exit Flow
 
 ```mermaid
